@@ -105,6 +105,7 @@ a
 a:hover
 {
 	text-decoration: overline underline;
+    background-color: yellow;
 }
 
 
@@ -139,3 +140,8 @@ ul{
 nav a{
     color:#1B9AAA;
 }
+script{
+    color: black;
+}
+
+
