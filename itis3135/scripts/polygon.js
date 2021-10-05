@@ -77,6 +77,4 @@ function validateEntry() {
             alert("Number is not in the range. Please enter a number between 1 - 15:")
         }
     }
-    
-
 }
