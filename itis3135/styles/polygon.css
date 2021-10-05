@@ -48,7 +48,7 @@ a {
 }
 
 a:hover {
-	text-decoration: overline underline;
+	text-decoration: underline;
     background-color: yellow;
 }
 
