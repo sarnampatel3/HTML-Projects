@@ -83,10 +83,12 @@ button {
     font-size: 2rem;
     border: 10px, solid whitesmoke;
     outline: none;
+    border-color: darkgray;
 }
 
 .calculator-grid>button:hover {
     background-color: yellow;
+   
 }
 
 /* AC and = */
