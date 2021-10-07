@@ -30,9 +30,12 @@ function displayResults()
 
 function displaySalary()
 {
-
+    for( i = 0 ; i < person.length ; i++)
+    {
+        document.getElementById("results_table").innerHTML = (person[i], salary[i]);
+    }
 }
-
+      
 function employeeName() 
 {
     var mylist = document.getElementById("myList");
