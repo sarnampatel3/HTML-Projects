@@ -4,7 +4,22 @@ salary = [60000, 75000, 72000, 68000, 70000];
 
 function addSalary()
 {
+    let name = document.getElementById("name").value;
+    let income = document.getElementById("salary").value;
 
+       if(name == ""){
+           document.getElementById("Name: ");
+           alert("Please enter a name");
+       }
+       if(income == ""){
+        document.getElementById("Salary: ");
+           alert("Please enter salary");
+       }
+       if(name != "" && income != ""){
+           person.push(name);
+           salary.push(income);
+           alert("Information has been added successfully!");
+       }
 }
 
 function displayResults()
@@ -30,14 +45,18 @@ function displayResults()
 
 function displaySalary()
 {
-    for( i = 0 ; i < person.length ; i++)
+    var output = "<tr><td colspan='2'></td></tr><tr><td><b>Employee</b></td><td><b>Salary</b></td></tr>";
+
+    //loop to create a table rows and columns for the name and the score
+    for (var i = 0; i < person.length; i++)
     {
-        document.getElementById("results_table").innerHTML = (person[i], salary[i]);
+    output = output + "<tr><td>" + person[i] + "</td><td>" + salary[i] + "</td></tr>"
     }
+    document.getElementById("results_table").innerHTML = output;
 }
-      
+    
 function employeeName() 
 {
     var mylist = document.getElementById("myList");
     document.getElementById("favourite").value = mylist.options[mylist.selectedIndex].text;
-    }
+}

@@ -11,7 +11,7 @@ https://stackoverflow.com/questions/35079285/how-to-associate-javascript-functio
     <title>Arrays</title>
     <h1> Sarnam Patel >> ITIS3135</h1>
     <link href="styles/default.css" rel="stylesheet">
-   
+
 </head>
 <header>
     <a href = "introduction.html"> Introduction </a>
@@ -19,9 +19,11 @@ https://stackoverflow.com/questions/35079285/how-to-associate-javascript-functio
     <a href = "contract.html"> Contract </a>
 </header>
     <body>
+        <label>Enter Name : <input type="text" id="name" required autofocus><span id="namenull"></span></label> <br>
+        <label>Enter Salary : <input type="number" id="salary" required><span id="salarynull"></span></label><br>
         <button onclick="addSalary()">Add Salary</button>
         <button onclick="displayResults()">Display Results</button>
-        <button onclick="displaySalary()">Display Salary</button>
+        <button onclick="displaySalary()">Display Salary</button><br>
 <p> </p>
         <form>
             <select id = "myList" onchange = "favTutorial()" >
@@ -33,7 +35,10 @@ https://stackoverflow.com/questions/35079285/how-to-associate-javascript-functio
             <option> Shiv </option>
             </select>
         </form>
-        <div id="results">  </div>
+        <div id = "results"></div>
+        <table id = "results_table"></table>
+        <div id = "add"> </div>
+
         <script src = "scripts/arrays.js" defer> </script>
     </body>
 
