@@ -10,6 +10,7 @@ Any challenges/frustrations/suggestions/etc: fixing image size and the arrows on
 I refer the example given on w3school.com website, but the entire code is written by myself. It is not copied and pasted.
 Sarnam Patel, 10/22/2021 6:58pm
 -->
+<!DOCTYPE html>
 <html lang="en" dir="ltr">
 <head>
     <meta charset="UTF-8">
@@ -49,103 +50,103 @@ Sarnam Patel, 10/22/2021 6:58pm
         <p> Click on the dot to start the slideshow</p>
         <script src="scripts/slideshow.js"></script>
 
-        <div class="slideshow-container">
+        <div class = "slideshow-container">
 
-            <div class="mySlides fade">
-              <div class="numbertext">1 / 10</div>
-              <img src="images/viratkohli.jpg" style="width:100%">
-              <div class="text">India: Virat Kohli</div>
+            <div class = "mySlides fade">
+              <div class = "numbertext">1 / 10</div>
+              <img src = "images/viratkohli.jpg" alt = "Virat Kohli" style="width:100%">
+              <div class = "text">India: Virat Kohli</div>
             </div>
           
-            <div class="mySlides fade">
-              <div class="numbertext">2 / 10</div>
-              <img src="images/ABD.jpg" style="width:100%">
-              <div class="text">South Africa: AB De Villers</div>
+            <div class = "mySlides fade">
+              <div class = "numbertext">2 / 10</div>
+              <img src = "images/ABD.jpg" alt = "AB De Villers" style="width:100%">
+              <div class = "text">South Africa: AB De Villers</div>
             </div>
           
-            <div class="mySlides fade">
-              <div class="numbertext">3 / 10</div>
-              <img src="images/stevesmith.jpg" style="width:100%">
-              <div class="text">Australia: Steve Smith</div>
+            <div class = "mySlides fade">
+              <div class = "numbertext">3 / 10</div>
+              <img src = "images/stevesmith.jpg" alt = "Steve Smith" style="width:100%">
+              <div class = "text">Australia: Steve Smith</div>
             </div>
           
             <div class="mySlides fade">
                 <div class="numbertext">4 / 10</div>
-                <img src="images/babarazam.jpg" style="width:100%">
-                <div class="text">Pakistan: Babar Azam</div>
+                <img src="images/babarazam.jpg" alt = "Babar Azam" style = "width:100%">
+                <div class = "text">Pakistan: Babar Azam</div>
               </div>
             
-              <div class="mySlides fade">
-                <div class="numbertext">5 / 10</div>
-                <img src="images/chrisgayle.jpg" style="width:100%">
-                <div class="text">West Indies: Chris Gayle</div>
+              <div class = "mySlides fade">
+                <div class = "numbertext">5 / 10</div>
+                <img src = "images/chrisgayle.jpg" alt = "Chris Gayle" style = "width:100%">
+                <div class = "text">West Indies: Chris Gayle</div>
               </div>
             
-              <div class="mySlides fade">
-                <div class="numbertext">6 / 10</div>
-                <img src="images/joeroot.jpg" style="width:100%">
-                <div class="text">England: Joe Root</div>
+              <div class = "mySlides fade">
+                <div class = "numbertext">6 / 10</div>
+                <img src = "images/joeroot.jpg" alt = "Joe Root" style = "width:100%">
+                <div class = "text">England: Joe Root</div>
               </div>
 
-              <div class="mySlides fade">
-                <div class="numbertext">7 / 10</div>
-                <img src="images/kanewillamson.jpg" style="width:100%">
-                <div class="text">New Zealand: Kane Williamson</div>
+              <div class = "mySlides fade">
+                <div class = "numbertext">7 / 10</div>
+                <img src = "images/kanewillamson.jpg" alt = "Kane Williamson" style = "width:100%">
+                <div class = "text">New Zealand: Kane Williamson</div>
               </div>
 
-              <div class="mySlides fade">
-                <div class="numbertext">8 / 10</div>
-                <img src="images/kumarsanga.jpg" style="width:100%">
-                <div class="text">Sri Lanka: Kumar Sangakkara</div>
+              <div class = "mySlides fade">
+                <div class = "numbertext">8 / 10</div>
+                <img src = "images/kumarsanga.jpg" alt = "Kumar Sangakkara" style = "width:100%">
+                <div class = "text">Sri Lanka: Kumar Sangakkara</div>
               </div>
 
-              <div class="mySlides fade">
-                <div class="numbertext">9 / 10</div>
-                <img src="images/rashidkhan.jpg" style="width:100%">
-                <div class="text">Afghanistan: Rashid Khan</div>
+              <div class = "mySlides fade">
+                <div class = "numbertext">9 / 10</div>
+                <img src="images/rashidkhan.jpg" alt = "Rashid Khan" style = "width:100%">
+                <div class = "text">Afghanistan: Rashid Khan</div>
               </div>
 
-              <div class="mySlides fade">
-                <div class="numbertext">10 / 10</div>
-                <img src="images/shakib.jpg" style="width:100%">
-                <div class="text">Bangladesh: Shakib Al Hasan</div>
+              <div class = "mySlides fade">
+                <div class = "numbertext">10 / 10</div>
+                <img src = "images/shakib.jpg" alt = "Shakib Al Hasan" style = "width:100%">
+                <div class = "text">Bangladesh: Shakib Al Hasan</div>
               </div>
 
-            <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
-            <a class="next" onclick="plusSlides(1)">&#10095;</a>
+            <a class = "prev" onclick = "plusSlides(-1)">&#10094;</a>
+            <a class = "next" onclick  ="plusSlides(1)">&#10095;</a>
           </div>
           <br>
           
           <div style="text-align:center">
-            <span class="dot" onclick="currentSlide(1)"></span>
-            <span class="dot" onclick="currentSlide(2)"></span>
-            <span class="dot" onclick="currentSlide(3)"></span>
-            <span class="dot" onclick="currentSlide(4)"></span>
-            <span class="dot" onclick="currentSlide(5)"></span>
-            <span class="dot" onclick="currentSlide(6)"></span>
-            <span class="dot" onclick="currentSlide(7)"></span>
-            <span class="dot" onclick="currentSlide(8)"></span>
-            <span class="dot" onclick="currentSlide(9)"></span>
-            <span class="dot" onclick="currentSlide(10)"></span>
+            <span class = "dot" onclick = "currentSlide(1)"></span>
+            <span class = "dot" onclick = "currentSlide(2)"></span>
+            <span class = "dot" onclick = "currentSlide(3)"></span>
+            <span class = "dot" onclick = "currentSlide(4)"></span>
+            <span class = "dot" onclick = "currentSlide(5)"></span>
+            <span class = "dot" onclick = "currentSlide(6)"></span>
+            <span class = "dot" onclick = "currentSlide(7)"></span>
+            <span class = "dot" onclick = "currentSlide(8)"></span>
+            <span class = "dot" onclick = "currentSlide(9)"></span>
+            <span class = "dot" onclick = "currentSlide(10)"></span>
           </div>
 
    
     </body>
 
 <footer>
-    <a href = "https://webpages.uncc.edu/spate247/itis3135/" target= "_blank">Charlotte.edu</a> 
+    <a href = "https://webpages.uncc.edu/spate247/itis3135/" target = "_blank">Charlotte.edu</a> 
     |
-    <a href = "https://github.com/" target= "_blank">Github</a> 
+    <a href = "https://github.com/" target = "_blank">Github</a> 
     |
-    <a href = "https://sarnampatel3.github.io/" target= "_blank">Github.io</a> 
+    <a href = "https://sarnampatel3.github.io/" target = "_blank">Github.io</a> 
     |
-    <a href = "https://github.com/" target= "_blank">ITIS 3135 Github Pages</a> 
+    <a href = "https://github.com/" target = "_blank">ITIS 3135 Github Pages</a> 
     |
-    <a href = "https://www.codecademy.com/learn" target= "_blank">Codecademy</a> 
+    <a href = "https://www.codecademy.com/learn" target = "_blank">Codecademy</a> 
     |
-    <a href = "https://www.freecodecamp.org/sarnampatel3" target= "_blank">freeCodeCamp</a> 
+    <a href = "https://www.freecodecamp.org/sarnampatel3" target = "_blank">freeCodeCamp</a> 
     |
-    <a href = "https://www.linkedin.com/in/sarnampatel3/" target= "_blank">LinkedIn</a> 
+    <a href = "https://www.linkedin.com/in/sarnampatel3/" target = "_blank">LinkedIn</a> 
     |
     
     <p>Page built by Sacrificial Penguin Enterprise</p>
