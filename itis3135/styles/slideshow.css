@@ -1,0 +1,184 @@
+a {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+
+}
+
+a:hover,
+a:link,
+a:active,
+a:visited {
+    color: blue;
+
+}
+
+html {
+    background-color: silver;
+}
+
+th {
+      background-color: rgb(3, 68, 12);
+      color: black
+  }
+
+body{
+	font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+	color: black;
+	background-color: #CBCE91FF;
+	margin-left: 75px;
+	margin-right: 75px;
+}
+
+header, footer {
+	text-align: center;
+	color: #1B9AAA;
+	font-weight: bold;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+h1 {
+	color: black;
+	text-align: center;
+}
+
+h2 {
+	color: blue;
+	text-align: center;
+}
+
+h3{
+    color: black;
+    text-align: center;
+}
+
+a:hover {
+	text-decoration: underline;
+    background-color: yellow;
+}
+
+nav {
+	text-align: center;
+}
+
+p {
+    text-align: center;
+    padding-left: 70px;
+}
+
+nav a {
+    color:#1B9AAA;
+}
+
+img {
+    align-items: center;
+}
+button {
+    color: black;
+    background-color: yellowgreen;
+}
+.span-two {
+    grid-column: span 2;
+    color: black;
+    background-color: peru;
+}
+
+.output {
+    grid-column: 1 / -1;
+    background-color: darkgray;
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-around;
+    flex-direction: column;
+    padding: 10px;
+    word-wrap: break-word;
+    word-break: break-all;
+}
+
+.output .previous-operand {
+    color: black;
+    font-size: 1.5rem;
+}
+
+.output .current-operand {
+    color: black;
+    font-size: 2.5rem;
+}
+* {box-sizing:border-box}
+
+/* Slideshow container */
+.slideshow-container {
+  max-width: 500px;
+  position: relative;
+  margin: auto;
+}
+
+/* Hide the images by default */
+.mySlides {
+  display: none;
+}
+
+/* Next & previous buttons */
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  margin-top: -22px;
+  padding: 16px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* Caption text */
+.text {
+  color: white;
+  text-align: center;
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+  color: white;
+}
+
+/* The dots/bullets/indicators */
+.dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: gray;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active, .dot:hover {
+  background-color: gray;
+}
+
+/* Fading animation */
+.fade {
+  -webkit-animation-name:fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}
