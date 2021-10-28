@@ -29,7 +29,7 @@ th {
 	margin-right: 75px;
 }
 
-header, footer{
+header, footer {
 	text-align: center;
 	color: #1B9AAA;
 	font-weight: bold;
@@ -42,10 +42,10 @@ h1 {
 	text-align: center;
 }
 
-h2{
+h2 {
 	color: #1B9AAA;
 	font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-	text-align: left;
+	text-align: center;
 }
 
 a:hover {
