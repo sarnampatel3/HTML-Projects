@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>Weekly Calorie Calculator</title>
+    <link rel="stylesheet" href="Midterm.css">
+    <script src="Midterm.js"></script>
+</head>
+<body>
+<main>
+    <h1>Weekly Calorie Calculator</h1>
+    <header>
+        <h2>Enter your details</h2>
+    </header>
+    <!--add the form-->
+    <form action = "#">
+    <form id = "your_details" name = "your_details" action = "#" >
+            <label for = "name">Name</label>
+            <input type = "text" id = "name" name = "name" placeholder = "Enter your name" size = "50" required>
+        
+            <label for = "email">Email</label>
+            <input type = "email" id = "email" name = "email" placeholder = "Enter your email" size = "50" required>
+        
+            <input class = "button" type = "submit" value = "Submit">
+
+    </form>
+    
+<p>Choose a day:</p>
+    <!--add the radio buttons-->
+    <input type = "radio" id = "day" name = "day" value = "monday">
+    <label for = "monday">Monday</label><br>
+
+    <input type = "radio" id = "day" name = "day" value = "tuesday">
+    <label for = "tuesday">Tuesday</label><br>
+
+    <input type = "radio" id = "day" name = "day" value = "wednesday">
+    <label for = "wednesday">Wednesday</label><br>
+
+    <input type = "radio" id = "day" name = "day" value = "thursday">
+    <label for = "thursday">Thursday</label><br>
+
+    <input type = "radio" id = "day" name = "day" value = "friday">
+    <label for = "friday">Friday</label><br>
+
+    <input type = "radio" id = "day" name = "day" value = "saturday">
+    <label for = "saturday">Saturday</label><br>
+
+    <input type = "radio" id = "day" name = "day" value = "sunday">
+    <label for = "sunday">Sunday</label><br>
+    <br>
+
+    <p>Enter the Calorie:</p>
+    <!--input for calorie-->
+    <input type="number" name="calorie" id="calorie" onclick = "updateCalorie">
+
+    <!--button for updating calorie-->
+    <input class = "button" type = "submit" value = "Update">
+    
+    
+    <!--button for add calorie-->
+    <input class = "button" type = "submit" value = "Average Calorie" onclick="showAverageCalories()" >
+    <!--text box for showing Average calorie-->
+    <p>Average Calorie Consumed is:</p>
+    <div id = "average">
+    <input class="display" name="calorie" id="calorie" ></div>
+    <br>
+    <!--header for showing maximum calorie amount and cheat day-->
+    <strong id="show_max" onclick="showMax()">Show Maximum Calorie and Cheat Day:</strong>
+   
+    <!--div for showing maximum calorie amount and cheat day-->
+    <div id="showMax"></div>
+
+</main>
+<footer>
+    <br/>
+    <a href="https://validator.w3.org/">Validate HTML</a>
+    <br/>
+    <a href="https://jigsaw.w3.org/css-validator/">Validate CSS</a>
+</footer>
+</body>
+</html>
