@@ -1,0 +1,125 @@
+a {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+
+}
+
+a:hover,
+a:link,
+a:active,
+a:visited {
+    color: blue;
+
+}
+
+html {
+    background-color: silver;
+}
+
+th {
+      background-color: rgb(3, 68, 12);
+      color: black
+  }
+
+  body{
+	color: black;
+	background-color: lightpink;
+	margin-left: 75px;
+	margin-right: 75px;
+}
+
+header, footer {
+	text-align: center;
+	color: #1B9AAA;
+	font-weight: bold;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+h1 {
+	color: black;
+	font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+	text-align: center;
+}
+
+h2 {
+	color: black;
+	font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+	text-align: center;
+}
+
+a:hover {
+    background-color: white;
+    text-align: center;
+    color: blue;
+}
+
+nav {
+	text-align: center;
+}
+
+p {
+    text-align: center;
+    padding-left: 70px;
+}
+
+nav a {
+    color:#1B9AAA;
+}
+
+img {
+    align-items: center;
+}
+button {
+    color: black;
+    background-color: yellowgreen;
+}
+
+/* AC and = */
+.span-two {
+    grid-column: span 2;
+    color: black;
+    background-color: peru;
+}
+
+.output {
+    grid-column: 1 / -1;
+    background-color: darkgray;
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-around;
+    flex-direction: column;
+    padding: 10px;
+    word-wrap: break-word;
+    word-break: break-all;
+}
+
+.output .previous-operand {
+    color: black;
+    font-size: 1.5rem;
+}
+
+.output .current-operand {
+    color: black;
+    font-size: 2.5rem;
+}
+
+.navigation{
+    position: relative;
+    left: 10%;
+    right: 50%;
+    
+}
+.navigation a {
+    color:red;
+    font-size: 20px;
+    text-align: center;
+    background-color: white;
+    display: block;
+    padding: 1%;
+    width: 190px;
+  
+ 
+}
+.navigation a:hover{
+    background-color: yellow;
+}
