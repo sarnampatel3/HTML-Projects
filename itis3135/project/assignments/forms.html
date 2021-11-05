@@ -1,0 +1,130 @@
+<!--
+Name: Sarnam Patel
+Course: ITIS-3135-051
+Sarnam Patel >> ITIS 3135
+-->
+
+<html lang = "en">
+<head>
+    <meta charset = "UTF-8">
+    <link href = "styles/formstyles.css" rel = "stylesheet" type = "text/css">
+    <title> Coffee House </title>
+</head>
+<style>
+  body {
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  * {box-sizing: border-box;}
+  
+  input[type=text], select, textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+  }
+  
+  input[type=submit] {
+    background-color: #04AA6D;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  input[type=submit]:hover {
+    background-color: #45a049;
+  }
+  
+  .container {
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 20px;
+  }
+  
+  </style>
+<body>
+<header>
+    <h1> Sarnam Patel >> ITIS3135 </h1>
+</header>
+<nav>
+    <a href = "introduction.html"> Introduction </a>
+    ||
+    <a href = "contract.html"> Contract </a>
+    </nav>
+    <main>
+        <h2> Coffee Shop Form </h2>
+        <div class="container">
+  
+          <form action="#">
+            <label for="name">Name</label>
+            <input type="text" id="name" name="name" placeholder="first last" size="50" required>
+        
+            <label for="email">Email</label>
+            <input type="email" id="email" name="email" placeholder="john.patel@gmail.com" size="50" required>
+
+            <label for="phonenumber">Phone Number</label>
+            <input type="number" id="phonenumber" name="phonenumber" placeholder="9999999999" size="10"required>
+
+
+
+            <p>Gender:</p>
+            <input type="radio" id="male" name="male" value="male">
+            <label align="left" for="female">Male</label>
+            <input type="radio" id="female" name="female" value="female">
+            <label for="female">Female</label><br>
+
+            <br>
+    
+            <label for="membership">Membership</label>
+            <select id="membership" name="membership" >
+              <option value="coupons">Coupons</option>
+              <option value="newsletters">Newsletter</option>
+              <option value="both">Both</option>
+            </select>
+        
+         
+
+  <p>Consent Form</p>
+  <input type="checkbox" id="consent" name="consent" value="consent" required>
+  <label for="consent"> I agree</label><br>
+ 
+
+            
+            <input type="submit" value="Submit">
+          </form>
+        </div>
+        </main>
+        <footer>
+        <br>
+        <nav>
+        <a href = "https://webpages.uncc.edu/spate247/itis3135/" target= "_blank">Charlotte.edu</a> 
+        |
+        <a href = "https://github.com/" target= "_blank">Github</a> 
+        |
+        <a href = "https://sarnampatel3.github.io/" target= "_blank">Github.io</a> 
+        |
+        <a href = "https://github.com/" target= "_blank">ITIS 3135 Github Pages</a> 
+        |
+        <a href = "https://www.codecademy.com/learn" target= "_blank">Codecademy</a> 
+        |
+        <a href = "https://www.freecodecamp.org/sarnampatel3" target= "_blank">freeCodeCamp</a> 
+        |
+        <a href = "https://www.linkedin.com/in/sarnampatel3/" target= "_blank">LinkedIn</a> 
+        |
+        </nav>
+        <br>
+        <p> Page built by Sarnam Patel </p>
+        <a href= "https://validator.w3.org/check?uri=referer">
+            <img src="images/button-valid-html5.gif" width="88" height="31" alt="Link to HTML validator">
+            </a>
+        <a href= "https://jigsaw.w3.org/css-validator/check/referer">
+            <img src="images/button-valid-css.gif" width="88" height="31" alt="Link to CSS validator">
+            </a>
+            </footer>
+    </body>
+</html>

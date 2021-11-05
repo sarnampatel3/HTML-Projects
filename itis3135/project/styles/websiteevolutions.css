@@ -1,0 +1,147 @@
+h1, h2, a {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+
+}
+
+a:hover,
+a:link,
+a:active,
+a:visited {
+    color: blue;
+
+}
+
+html {
+    background-color: silver;
+}
+ul,li{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: 200;
+    font-feature-settings: "aalt";
+}
+
+h1{
+    text-align: center;
+}
+table, th, td {
+    border: 2px solid black;
+  }
+  table{
+      table-layout: fixed;
+      border-collapse: collapse;
+      width: 40%;
+  }
+  td {
+      border: 1px solid #000;
+      width: 150px;
+      color: black;
+  }
+  tr{
+      background-color: green;
+      color: #1B9AAA;
+      width: 100px;
+  }
+  th{
+      background-color: rgb(3, 68, 12);
+      color: black
+  }
+
+  td+td {
+      width: auto;
+  }
+  table tr:nth-child(even) {
+      background-color: rgb(77, 177, 31);
+      color: #1B9AAA; 
+  }
+
+  table tr:nth-child(odd) {
+      background-color: rgb(218, 245, 202);
+      color: #1B9AAA; 
+  }
+
+  #table2{
+      width: 80%;
+  }
+  body
+{
+	font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+	color: #050505 ;
+	background-color: #DDDBCB;
+	margin-left: 75px;
+	margin-right: 75px;
+}
+
+
+header, footer
+{
+	text-align: center;
+	color: #1B9AAA;
+	font-weight: bold;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+h1, h2, h3
+{
+	color: #1B9AAA;
+	font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+	text-align: center;
+}
+
+h3
+{
+	font-size: 200%;
+	line-height: 0px;
+}
+
+a
+{
+	text-decoration: none;
+	color:ivory;
+}
+
+a:hover
+{
+	text-decoration: overline underline;
+    background-color: yellow;
+}
+
+
+figure
+{
+	text-align: center;
+  
+
+}
+
+figcaption
+{
+	font-style: italic;
+}
+
+
+nav
+{
+	text-align: center;
+}
+
+p{
+    text-align: left;
+    padding-left: 70px;
+}
+
+ul{
+    text-align: left;
+    list-style: inside;
+    
+}
+nav a{
+    color:#1B9AAA;
+}
+script{
+    color: black;
+}
+
+img{
+    align-items: center;
+}
