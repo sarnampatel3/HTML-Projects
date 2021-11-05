@@ -127,19 +127,8 @@ button {
 .navigation a:hover{
     background-color: rgb(6, 30, 136);
 }
-.rdu{
-    float: left;
-    width: 125;
-    height: 125;
-}
 
-.samp{
-    float: right;
-    width: 125;
-    height: 125;
-}
-
-.owners{
+#owners{
     display: block;
     margin-left: auto;
     margin-right: auto;
@@ -162,9 +151,7 @@ video{
 
 .second{
     width: 400;
-    height: 250;
-   
-    
+    height: 250; 
 }
 
 
@@ -303,14 +290,14 @@ button {
   padding-top: 0mm;
 }
 
-.samT{
+#samT{
     width: 150;
     height: 140;
     float: left;
     padding-left: 1%;
 }
 
-.radiomirchi{
+#radiomirchi{
     width: 180;
     height: 140;
     float: right;
@@ -326,36 +313,50 @@ button {
     padding-left: 1%;
   }
 
-.right{
+.rdu{
+    float: left;
+    width: 125;
+    height: 125;
+}
+
+.samp{
+    float: right;
+    width: 125;
+    height: 125;
+}
+
+#right{
     width: 200;
     height: 220;
     float: right;
     padding-right: 1%;
-  }
-  .left{
+}
+
+#left{
     width: 200;
     height: 220;
     float: left;
     padding-left: 1%;
   }
 
-  .complexleft{
+#complexleft{
     width: 250;
     height: 150;
     float: left;
     padding-left: 1%;
   }
 
-  .complexright{
+#complexright{
     width: 250;
     height: 150;
     float: right;
     padding-right: 1%;
   }
 
-#calender{
+.calender{
       width: 800;
       margin-left: auto;
       margin-right: auto;
       align-items: center;
   }
+
