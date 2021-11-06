@@ -13,6 +13,8 @@ Sarnam Patel >> ITIS 3135
 </head>
 <body>
     <link href="styles/default.css" rel="stylesheet">
+    <script src = "scripts/players.js"> </script>
+
     <header>
         <h1> Sarnam Patel >> ITIS3135 </h1>
      
@@ -27,23 +29,23 @@ Sarnam Patel >> ITIS 3135
     </nav>
     <br>
     <br>
+    <script src = "scripts/players.js"> </script>
+
     <div class="container">
-    <form action="#">
-        <label for="name">Name</label>
+    <form>
+        <label>Name</label>
         <input type="text" id="name" name="name" placeholder="first last" size="50" required>
     
-        <label for="email">Email</label>
+        <label>Email</label>
         <input type="email" id="email" name="email" placeholder="john.patel@gmail.com" size="50" required>
 
-        <label for="phonenumber">Phone Number</label>
+        <label">Phone Number</label>
         <input type="number" id="phonenumber" name="phonenumber" placeholder="9999999999" required>
 
 
 <br>
 <br>
-        <label> 
-            Gender <input name = "gender">
-        </label>
+        <p style="text-align: left;"> Gender:</p>
         <input type="radio" id="male" name="male" value="male">
         <label for="female">Male</label>
         <input type="radio" id="female" name="female" value="female">
@@ -63,10 +65,15 @@ Sarnam Patel >> ITIS 3135
 <label for="consent"> I agree</label><br>
   
 <br>
+<input type="submit" value = "Submit" onclick="showInput();">
 
-        <input type="submit" value="Submit">
-      </form>
-    </div>
+</form>
+  </div>
+  <label>Your input: </label>
+  <p><span id='name'></span></p>
+  <p><span id='email'></span></p>
+  <p><span id='phonenumber'></span></p>
+
         <footer>
             <br>
           
