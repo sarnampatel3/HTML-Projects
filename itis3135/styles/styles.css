@@ -36,7 +36,15 @@ table, th, td {
 
   #table2{
       width: 80%;
+      margin-left: auto;
+      margin-right: auto;
   }
+
+  #table1{
+    margin-left: auto;
+  margin-right: auto;
+}
+
   body
 {
 	font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
