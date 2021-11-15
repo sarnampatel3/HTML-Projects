@@ -68,59 +68,22 @@ nav a {
 
 img {
     align-items: center;
-}
-button {
-    color: black;
-    background-color: yellowgreen;
+    
 }
 
-.calculator-grid {
-    display: grid;
-    justify-content: center;
-    align-content: center;
-    min-height: 50vh;
-    grid-template-columns: repeat(4, 90px);
-    grid-template-rows: minmax(100px, auto) repeat(5, 90px);
-}
-
-.calculator-grid>button {
-    cursor: pointer;
-    font-size: 2rem;
-    border: 10px, solid whitesmoke;
-    outline: none;
-    border-color: darkgray;
-}
-
-.calculator-grid>button:hover {
-    background-color: yellow;
+.image{
+    height: 300px;
+    width: 450px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
    
 }
 
-/* AC and = */
-.span-two {
-    grid-column: span 2;
-    color: black;
-    background-color: peru;
+.center{
+  padding-left: 5%;
+   
 }
-
-.output {
-    grid-column: 1 / -1;
-    background-color: darkgray;
-    display: flex;
-    align-items: flex-end;
-    justify-content: space-around;
-    flex-direction: column;
-    padding: 10px;
-    word-wrap: break-word;
-    word-break: break-all;
-}
-
-.output .previous-operand {
-    color: black;
-    font-size: 1.5rem;
-}
-
-.output .current-operand {
-    color: black;
-    font-size: 2.5rem;
+#caption{
+    text-align: center;
 }
