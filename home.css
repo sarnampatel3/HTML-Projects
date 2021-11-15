@@ -8,7 +8,7 @@ a:hover,
 a:link,
 a:active,
 a:visited {
-    color: blue;
+    color: red;
 
 }
 
@@ -136,4 +136,11 @@ button {
     display: block;
     margin-left: auto;
     margin-right: auto;
+}
+
+.navigation{
+    max-width: 500px;
+    margin: auto;
+    background: white;
+    padding: 10px;
 }
