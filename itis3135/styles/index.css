@@ -63,30 +63,16 @@ p {
 }
 
 nav a {
-    color:#1B9AAA;
+    color:black;
 }
 
 img {
     align-items: center;
 }
 
+
 .navigation{
-    position: relative;
-    left: 10%;
-    right: 50%;
-    
-}
-.navigation a {
-    color:red;
-    font-size: 20px;
-    text-align: center;
-    background-color: white;
-    display: block;
-    padding: 1%;
-    width: 190px;
-  
- 
-}
-.navigation a:hover{
-    background-color: yellow;
+    max-width: 800px;
+    margin: auto;
+    padding: 10px;
 }
