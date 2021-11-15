@@ -74,39 +74,6 @@ nav a {
 img {
     align-items: center;
 }
-button {
-    color: black;
-    background-color: yellowgreen;
-}
-
-.calculator-grid {
-    display: grid;
-    justify-content: center;
-    align-content: center;
-    min-height: 50vh;
-    grid-template-columns: repeat(4, 90px);
-    grid-template-rows: minmax(100px, auto) repeat(5, 90px);
-}
-
-.calculator-grid>button {
-    cursor: pointer;
-    font-size: 2rem;
-    border: 10px;
-    outline: none;
-    border-color: darkgray;
-}
-
-.calculator-grid>button:hover {
-    background-color: yellow;
-   
-}
-
-/* AC and = */
-.span-two {
-    grid-column: span 2;
-    color: black;
-    background-color: peru;
-}
 
 .output {
     grid-column: 1 / -1;
