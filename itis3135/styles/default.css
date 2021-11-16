@@ -29,7 +29,8 @@ th {
 	margin-right: 75px;
 }
 
-header, footer {
+header, footer
+{
 	text-align: center;
 	color: #1B9AAA;
 	font-weight: bold;
