@@ -86,7 +86,7 @@ button {
 .calculator-grid>button {
     cursor: pointer;
     font-size: 2rem;
-    border: 10px, solid whitesmoke;
+    border: 10px;
     outline: none;
     border-color: darkgray;
 }
