@@ -67,3 +67,8 @@ button {
     color: black;
     background-color: yellowgreen;
 }
+.navigation{
+    max-width: 800px;
+    margin: auto;
+    padding: 10px;
+}
