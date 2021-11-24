@@ -104,4 +104,7 @@ a:hover {
 }
 button {
   border-radius: 15%;
+ color: white;
+ background-color: black;
+  
 }
