@@ -12,25 +12,32 @@ Sarnam Patel, 10/22/2021 6:58pm
 -->
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
+  <meta charset="UTF-8">
 <head>
-    <meta charset="UTF-8">
-    <title>Slideshow</title>
-  </head>
-  <header>
-    <h1> Sarnam Patel >> ITIS3135</h1>
+   
+    <title>Sarnam Patel, ITIS3135, Slideshow</title>
     <link href="styles/slideshow.css" rel="stylesheet">
-    <script src = "scripts/slideshow.js"> </script>
+    <script src="jquery-3.6.0.js" type="text/javascript"></script>
+    <script src = "scripts/slideshow.js" type="text/javascript"> </script>
+  </head>
+  <body>
+  <header>
+    <h1> Sarnam Patel . ITIS3135 . Slideshow</h1>
+</header>
 
-
-    <a href = "introduction.html"> Introduction </a>
+<main>
+  <div class = "navigation">
+    <a href = "index.html"> Home </a>
     ||
     <a href = "contract.html"> Contract </a>
     ||
-    <a href = "index.html"> Index </a>
+    <a href = "introduction.html"> Introduction </a>
     ||
-    <a href = "tables.html"> Tables </a>
+    <a href = "tables.html"> HTML Tables </a>
     ||
-    <a href = "forms.html"> Form </a>
+    <a href = "forms.html"> HTML Forms </a>
+    ||
+    <a href = "stuff/CRAPPY.Web_Page.html"> CRAPPY Webpage </a>
     ||
     <a href = "brand-sacrificial-penguin.html"> Brand </a>
     ||
@@ -40,102 +47,69 @@ Sarnam Patel, 10/22/2021 6:58pm
     ||
     <a href = "polygon.html"> Polygon </a>
     ||
+    <a href = "calculator.html"> Calculator </a>
+    ||
     <a href = "arrays.html"> Arrays </a>
     ||
-    <a href = "Practice/Practice.html"> Practice </a>
+    <a href = "slideshow.html"> Images Slideshow </a>
     ||
     <a href = "Accessibility/Patel-Activity_Accessibility.html"> Accessibility </a>
-</header>
+    ||
+    <a href = "Practice/Practice.html"> Practice Activity </a>
+    ||
+    <a href = "Midterm/Midterm.html"> Midterm </a>
+    ||
+    <a href = "Exercise/Activity10/Patel-Activity10.html"> Image Swap </a>
+    ||
+    <a href = "Exercise/Activity11/Patel-Activity11.html"> Accordion Widget </a>
+    ||
+    <a href = "Exercise/Updated-Activity12/Patel-Activity12.html"> bsSlider Plugin </a>
+    ||
+    <a href = "project-rand.html"> Project Design</a>
+    ||
+    <a href = "project/index.html"> Project </a>
+ </div>
 
-    <body>
-        <h2>Slideshow</h2>
-        <h3>Best Cricketers of each team</h3>
-        <p> Click on the dot to start the slideshow</p>
-        <script src="scripts/slideshow.js"></script>
+ <div class = "container">
+    <div class = "row">
+      <div class = "column">
+        <img src = "images/viratkohli.jpg" alt = "Virat Kohli" title = "Virat Kohli" height = 100 width = 150>
+      </div>
+      <div class = "column">
+         <img src = "images/babarazam.jpg" alt = "Babar Azam" title = "Babar Azam" height = 100 width = 150>
+        </div>
+        <div class = "column">
+        <img src = "images/stevesmith.jpg" alt = "Steve Smith" title = "Steve Smith" height = 100 width = 150>
+      </div>
+      <div class = "column">
+        <img src = "images/ABD.jpg" alt = "Virat Kohli" title = "Virat Kohli" height = 100 width = 150>
+      </div>
+      <div class = "column">
+         <img src = "images/kanewillamson.jpg" alt = "Babar Azam" title = "Babar Azam" height = 100 width = 150>
+        </div>
+        <div class = "column">
+        <img src = "images/kumarsanga.jpg" alt = "Steve Smith" title = "Steve Smith" height = 100 width = 150>
+      </div>
+      <div class = "column">
+        <img src = "images/joeroot.jpg" alt = "Virat Kohli" title = "Virat Kohli" height = 100 width = 150>
+      </div>
+      <div class = "column">
+         <img src = "images/rashidkhan.jpg" alt = "Babar Azam" title = "Babar Azam" height = 100 width = 150>
+        </div>
+        <div class = "column">
+        <img src = "images/chrisgayle.jpg" alt = "Steve Smith" title = "Steve Smith" height = 100 width = 150>
+      </div>
+      <div class = "column">
+        <img src = "images/shakib.jpg" alt = "Steve Smith" title = "Steve Smith" height = 100 width = 150>
+      </div>
+  
+    </div>
+  </div>
+ 
+    <p> <img src = "images/viratkohli.jpg" alt = "Virat Kohli" height = 300 width = 400 class = "active"></p>
 
-        <div class = "slideshow-container">
-
-            <div class = "mySlides fade">
-              <div class = "numbertext">1 / 10</div>
-              <img src = "images/viratkohli.jpg" alt = "Virat Kohli" style="width:100%">
-              <div class = "text">India: Virat Kohli</div>
-            </div>
-          
-            <div class = "mySlides fade">
-              <div class = "numbertext">2 / 10</div>
-              <img src = "images/ABD.jpg" alt = "AB De Villers" style="width:100%">
-              <div class = "text">South Africa: AB De Villers</div>
-            </div>
-          
-            <div class = "mySlides fade">
-              <div class = "numbertext">3 / 10</div>
-              <img src = "images/stevesmith.jpg" alt = "Steve Smith" style="width:100%">
-              <div class = "text">Australia: Steve Smith</div>
-            </div>
-          
-            <div class="mySlides fade">
-                <div class="numbertext">4 / 10</div>
-                <img src="images/babarazam.jpg" alt = "Babar Azam" style = "width:100%">
-                <div class = "text">Pakistan: Babar Azam</div>
-              </div>
-            
-              <div class = "mySlides fade">
-                <div class = "numbertext">5 / 10</div>
-                <img src = "images/chrisgayle.jpg" alt = "Chris Gayle" style = "width:100%">
-                <div class = "text">West Indies: Chris Gayle</div>
-              </div>
-            
-              <div class = "mySlides fade">
-                <div class = "numbertext">6 / 10</div>
-                <img src = "images/joeroot.jpg" alt = "Joe Root" style = "width:100%">
-                <div class = "text">England: Joe Root</div>
-              </div>
-
-              <div class = "mySlides fade">
-                <div class = "numbertext">7 / 10</div>
-                <img src = "images/kanewillamson.jpg" alt = "Kane Williamson" style = "width:100%">
-                <div class = "text">New Zealand: Kane Williamson</div>
-              </div>
-
-              <div class = "mySlides fade">
-                <div class = "numbertext">8 / 10</div>
-                <img src = "images/kumarsanga.jpg" alt = "Kumar Sangakkara" style = "width:100%">
-                <div class = "text">Sri Lanka: Kumar Sangakkara</div>
-              </div>
-
-              <div class = "mySlides fade">
-                <div class = "numbertext">9 / 10</div>
-                <img src="images/rashidkhan.jpg" alt = "Rashid Khan" style = "width:100%">
-                <div class = "text">Afghanistan: Rashid Khan</div>
-              </div>
-
-              <div class = "mySlides fade">
-                <div class = "numbertext">10 / 10</div>
-                <img src = "images/shakib.jpg" alt = "Shakib Al Hasan" style = "width:100%">
-                <div class = "text">Bangladesh: Shakib Al Hasan</div>
-              </div>
-
-            <a class = "prev" onclick = "plusSlides(-1)">&#10094;</a>
-            <a class = "next" onclick  ="plusSlides(1)">&#10095;</a>
-          </div>
-          <br>
-          
-          <div style="text-align:center">
-            <span class = "dot" onclick = "currentSlide(1)"></span>
-            <span class = "dot" onclick = "currentSlide(2)"></span>
-            <span class = "dot" onclick = "currentSlide(3)"></span>
-            <span class = "dot" onclick = "currentSlide(4)"></span>
-            <span class = "dot" onclick = "currentSlide(5)"></span>
-            <span class = "dot" onclick = "currentSlide(6)"></span>
-            <span class = "dot" onclick = "currentSlide(7)"></span>
-            <span class = "dot" onclick = "currentSlide(8)"></span>
-            <span class = "dot" onclick = "currentSlide(9)"></span>
-            <span class = "dot" onclick = "currentSlide(10)"></span>
-          </div>
-
-   
-    </body>
-
+  </div>
+  </main>
 <footer>
     <a href = "https://webpages.uncc.edu/spate247/itis3135/" target = "_blank">Charlotte.edu</a> 
     |
@@ -160,5 +134,5 @@ Sarnam Patel, 10/22/2021 6:58pm
         <img src="images/button-valid-css.gif" width="88" height="31" alt="Link to CSS validator">
         </a>
 </footer>
-
+</body>
 </html>

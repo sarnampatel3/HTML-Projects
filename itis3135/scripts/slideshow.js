@@ -1,37 +1,26 @@
-var slideIndex = 1;
-showSlides(slideIndex);
 
-function plusSlides(n) 
-{
-    showSlides(slideIndex += n);
-}
+$(document).ready(function() {
+    var imgs = new Array();
+    var intervalID;
 
-function currentSlide(n) 
-{
-    showSlides(slideIndex = n);
-}
+    $('.container img').each(function() {
+        imgs.push($(this).attr('src'));
+    });
 
-function showSlides(n) 
-{
-    var i;
-    var slides = document.getElementsByClassName("mySlides");
-    var dots = document.getElementsByClassName("dot");
-
-    if (n > slides.length) 
-    { slideIndex = 1 
-    }
-    if (n < 1) 
-    { slideIndex = slides.length 
-    }
-    for (i = 0; i < slides.length; i++)
-     {
-        slides[i].style.display = "none";
-    }
-    for (i = 0; i < dots.length; i++) 
+    function setImage() 
     {
-        dots[i].className = dots[i].className.replace(" active", "");
+        var active = $('.active');
+        var currentImageURL = active.attr('src');
+        var activeImage = $.inArray(currentImageURL, imgs);
+        if(activeImage == (imgs.length - 1)){
+            activeImage = -1;
+        }
+
+        active.attr('src', imgs[activeImage + 1]);
+        
     }
-    
-    slides[slideIndex - 1].style.display = "block";
-    dots[slideIndex - 1].className += " active";
-}
+
+    $(function(){
+        intervalID = setInterval(setImage, 2000);
+    });
+});
