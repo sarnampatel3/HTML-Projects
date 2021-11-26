@@ -202,7 +202,7 @@ button {
 * {box-sizing:border-box}
 
 /* Slideshow container */
-.slideshow-container {
+.cycle, .slider {
   max-width: 500px;
   position: relative;
   margin: auto;

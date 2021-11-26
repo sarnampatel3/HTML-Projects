@@ -1,4 +1,26 @@
-var slideIndex = 1;
+$(document).ready(function(){
+
+
+    $('.cycle').cycle({
+        fx: 'fade' // choose your transition type, ex: fade, scrollUp, shuffle, etc...
+    });
+    
+
+
+        $('.bxslider').bxSlider({
+          mode: 'fade',
+          captions: true,
+          slideWidth: 800
+        });
+      
+      
+      
+    
+  
+});
+
+
+/*var slideIndex = 1;
 showSlides(slideIndex);
 
 function plusSlides(n) 
@@ -35,3 +57,4 @@ function showSlides(n)
     slides[slideIndex - 1].style.display = "block";
     dots[slideIndex - 1].className += " active";
 }
+*/

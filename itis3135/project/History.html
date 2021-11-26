@@ -2,6 +2,8 @@
 Name: Sarnam Patel
 Course: ITIS-3135-051
 Sarnam Patel >> ITIS 3135
+
+
 -->
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
@@ -10,12 +12,14 @@ Sarnam Patel >> ITIS 3135
     <title>Project Design</title>
   </head>
   <body>
+    
     <h1> Sarnam Patel ITIS-3135</h1>
     <link href="styles/project.css" rel="stylesheet" type="text/css">
+    <script src="scripts/jquery-3.6.0.js"></script>
+    
     <script src = "scripts/players.js"> </script>
 
-
-    
+  
         <hr>
         <img src = "Images/rdulogo.jpg" alt = "logo" class = "rdu">
         <img src = "Images/logo.jpg" alt = "logo" class = "samp">
@@ -23,9 +27,9 @@ Sarnam Patel >> ITIS 3135
         <br>
         <div class = "navigation">
             <a href = "index.html">Home</a>
-            <a href = "History.html">History</a>
+            <a href = "History.html" class="cycle">History</a>
             <a href = "SampComplex.html">Indoor Complex</a>
-            <a href = "Journey.html">Journey</a>
+            <a href = "Journey.html" class = "slider">Journey</a>
             <a href = "Schedule.html">Schedule</a>
             <a href = "Contact.html">Contact</a>
         </div>
@@ -42,97 +46,28 @@ Sarnam Patel >> ITIS 3135
        <h3>Some Professional cricketers that played for Samp Army:</h3>
         <script src = "scripts/players.js"></script>
 
-        <div class = "slideshow-container">
 
-            <div class = "mySlides fade">
-              <div class = "numbertext">1 / 11</div>
-              <img src = "Images/coreyanderson.jpg" alt = "Corey Anderson" style="width:100%">
-              <div class = "text">Corey Anderson: Former New Zealand Professional Cricketer</div>
-            </div>
+        
+        <div class = "slider">
+
+                <img src = "Images/coreyanderson.jpg" alt = "Corey Anderson" height="200" width="200">
+                <img src = "Images/hemraj.jpg" alt = "Chanderpaul Hemraj" height="200" width="200">
+                <img src = "Images/ashleynurse.jpg" alt = "Ashley Nurse" height="200" width="200">
+                <img src="Images/alikhan.jpg" alt = "Ali Khan" height="200" width="200">
+                <img src = "Images/rustytheron.jpg" alt = "Rusty Theron" height="200" width="200">
+                <img src = "Images/shehan.jpg" alt = "Shehan Jayasuriya" height="200" width="200">
+                <img src = "Images/saurabh.jpg" alt = "Saurabh Netravalkar" height="200" width="200">
+                <img src = "Images/rayad.jpg" alt = "Rayad Emrit" height="200" width="200">
+                <img src="Images/ray.jpg" alt = "Raymon Reifer" height="200" width="200">
+                <img src = "Images/mo.jpg" alt = "Monank Patel" height="200" width="200">
+                <img src = "Images/justin.jpg" alt = "Justin Dill" height="200" width="200">
           
-            <div class = "mySlides fade">
-              <div class = "numbertext">2 / 11</div>
-              <img src = "Images/hemraj.jpg" alt = "Chanderpaul Hemraj" style="width:100%">
-              <div class = "text">Chanderpaul Hemraj: West Indies Cricketer</div>
-            </div>
-          
-            <div class = "mySlides fade">
-              <div class = "numbertext">3 / 11</div>
-              <img src = "Images/ashleynurse.jpg" alt = "Ashley Nurse" style="width:100%">
-              <div class = "text">Ashley Nurse: West Indies Cricketer</div>
-            </div>
-          
-            <div class="mySlides fade">
-                <div class="numbertext">4 / 11</div>
-                <img src="Images/alikhan.jpg" alt = "Ali Khan" style = "width:100%">
-                <div class = "text">Ali Khan: American Professional Cricketer</div>
-              </div>
-            
-              <div class = "mySlides fade">
-                <div class = "numbertext">5 / 11</div>
-                <img src = "Images/rustytheron.jpg" alt = "Rusty Theron" style = "width:100%">
-                <div class = "text">Rusty Theron: Former South Africian Professional Cricketer</div>
-              </div>
-            
-              <div class = "mySlides fade">
-                <div class = "numbertext">6 / 11</div>
-                <img src = "Images/shehan.jpg" alt = "Shehan Jayasuriya" style = "width:100%">
-                <div class = "text">Shehan Jayasuriya: Former Sri Lankan Professional Cricketer</div>
-              </div>
-
-              <div class = "mySlides fade">
-                <div class = "numbertext">7 / 11</div>
-                <img src = "Images/saurabh.jpg" alt = "Saurabh Netravalkar" style = "width:100%">
-                <div class = "text">Saurabh Netravalkar: Current USA ODI Team Captian</div>
-              </div>
-
-              <div class = "mySlides fade">
-                <div class = "numbertext">8 / 11</div>
-                <img src = "Images/rayad.jpg" alt = "Rayad Emrit" style = "width:100%">
-                <div class = "text">Rayad Emrit: West Indies Professional Cricketer</div>
-              </div>
-
-              <div class = "mySlides fade">
-                <div class = "numbertext">9 / 11</div>
-                <img src="Images/ray.jpg" alt = "Raymon Reifer" style = "width:100%">
-                <div class = "text">Raymon Reifer: West Indies Professional Cricketer</div>
-              </div>
-
-              <div class = "mySlides fade">
-                <div class = "numbertext">10 / 11</div>
-                <img src = "Images/mo.jpg" alt = "Monank Patel" style = "width:100%">
-                <div class = "text">Monank Patel: Current USA T20 Team Captian</div>
-              </div>
-
-              <div class = "mySlides fade">
-                <div class = "numbertext">11 / 11</div>
-                <img src = "Images/justin.jpg" alt = "Justin Dill" style = "width:100%">
-                <div class = "text">Justin Dill: Former South African Professional Cricketer</div>
-              </div>
-
-            <a class = "prev" onclick = "plusSlides(-1)">&#10094;</a>
-            <a class = "next" onclick  ="plusSlides(1)">&#10095;</a>
-          </div>
-          <br>
-          
-          <div style="text-align:center">
-            <span class = "dot" onclick = "currentSlide(1)"></span>
-            <span class = "dot" onclick = "currentSlide(2)"></span>
-            <span class = "dot" onclick = "currentSlide(3)"></span>
-            <span class = "dot" onclick = "currentSlide(4)"></span>
-            <span class = "dot" onclick = "currentSlide(5)"></span>
-            <span class = "dot" onclick = "currentSlide(6)"></span>
-            <span class = "dot" onclick = "currentSlide(7)"></span>
-            <span class = "dot" onclick = "currentSlide(8)"></span>
-            <span class = "dot" onclick = "currentSlide(9)"></span>
-            <span class = "dot" onclick = "currentSlide(10)"></span>
-            <span class = "dot" onclick = "currentSlide(11)"></span>
-          </div>
-
+</div>
 <br>
 <br>
 <br>
 <br>
+
 <footer>
     <a href = "https://webpages.uncc.edu/spate247/itis3135/" target= "_blank">Charlotte.edu</a> 
     |

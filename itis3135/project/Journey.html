@@ -2,6 +2,8 @@
 Name: Sarnam Patel
 Course: ITIS-3135-051
 Sarnam Patel >> ITIS 3135
+
+jQuery Plugin used: Cycle (fade)
 -->
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
@@ -12,6 +14,8 @@ Sarnam Patel >> ITIS 3135
   <body>
     <h1> Sarnam Patel ITIS-3135</h1>
     <link href="styles/project.css" rel="stylesheet" type="text/css">
+    <script src="scripts/jquery-3.6.0.js"></script>
+    <script src="https://malsup.github.io/jquery.cycle.all.js"></script>
     <script src = "scripts/players.js"> </script>
 
 
@@ -44,88 +48,24 @@ Sarnam Patel >> ITIS 3135
             <li>Samp Army also partnered with team Florida Beamer in Minor League Cricket 2021</li>
         </ul>
         <br>
-        <h3>Click in the dots to see the squads:</h3>
-        <script src="scripts/players.js"></script>
         
-         <div class = "slideshow-container">
+         <div class = "cycle">
         
-             <div class = "mySlides fade">
-                 <div class = "numbertext">1 / 10</div>
-                 <img src="Images/home.jpg" alt = "Atlanta Open Cricket Tournament" style = "width:100%">
-                 <div class = "text">Runners uo at Atlanta Open Cricket Tournament</div>
-               </div>
-        
-             <div class = "mySlides fade">
-               <div class = "numbertext">2 / 10</div>
-               <img src = "Images/AddaSquad.jpg" alt = "Adda Premier League" style="width:100%">
-               <div class = "text">Adda Premier League Squad</div>
-             </div>
-           
-             <div class = "mySlides fade">
-               <div class = "numbertext">3 / 10</div>
-               <img src = "Images/USOpenSquad.jpg" alt = "US Open" style="width:100%">
-               <div class = "text">US Open Cricket Tournament 2020 Squad</div>
-             </div>
-           
-             <div class = "mySlides fade">
-               <div class = "numbertext">4 / 10</div>
-               <img src = "Images/MCLSquad.JPG" alt = "MCL Cricket Tournament" style="width:100%">
-               <div class = "text">MCL Cricket Tournament Squad</div>
-             </div>
-           
-             <div class="mySlides fade">
-                 <div class="numbertext">5 / 10</div>
-                 <img src="Images/MaqT10Squad.JPG" alt = "MAQ T10 Cricket Tournament" style = "width:100%">
-                 <div class = "text">MAQ T10 Cricket Tournament Squad</div>
-               </div>
-             
-               <div class = "mySlides fade">
-                 <div class = "numbertext">6 / 10</div>
-                 <img src = "Images/LAOpenSqaud1.jpg" alt = "LA Open Team A" style = "width:100%">
-                 <div class = "text">LA Open Cricket Tournament Team A</div>
-               </div>
-             
-               <div class = "mySlides fade">
-                 <div class = "numbertext">7 / 10</div>
-                 <img src = "Images/LAOpenSqaud2.jpg" alt = "LA Open Team 2" style = "width:100%">
-                 <div class = "text">LA Open Cricket Tournament Team B</div>
-               </div>
-        
-               <div class = "mySlides fade">
-                 <div class = "numbertext">8 / 10</div>
-                 <img src = "Images/OhioSquad.jpg" alt = "C.S. Bhullar & ManinderKaur Bhullar Memorial Cricket Tournament" style = "width:100%">
-                 <div class = "text">C.S. Bhullar & ManinderKaur Bhullar Memorial Cricket Tournament Squad</div>
-               </div>
-        
-               <div class = "mySlides fade">
-                 <div class = "numbertext">9 / 10</div>
-                 <img src = "Images/FloridaBeamersSquad.jpg" alt = "Florida Beamers" style = "width:100%">
-                 <div class = "text">Minor League Cricket Team Florida Beamers Squad</div>
-               </div>
-        
-               <div class = "mySlides fade">
-                 <div class = "numbertext">10 / 10</div>
-                 <img src = "Images/NJSquad.jpg" alt = "Edison Cup" style = "width:100%">
-                 <div class = "text">Edison Cup 2021 Squad</div>
-               </div>
-        
-             <a class = "prev" onclick = "plusSlides(-1)">&#10094;</a>
-             <a class = "next" onclick  ="plusSlides(1)">&#10095;</a>
+            
+                 <img src="Images/home.jpg" alt = "Atlanta Open Cricket Tournament" width="200" height="200"/>
+                 <img src = "Images/AddaSquad.jpg" alt = "Adda Premier League" width="200" height="200"/>
+                 <img src = "Images/USOpenSquad.jpg" alt = "US Open" width="200" height="200"/>
+                 <img src = "Images/MCLSquad.JPG" alt = "MCL Cricket Tournament" width="200" height="200"/>
+                 <img src="Images/MaqT10Squad.JPG" alt = "MAQ T10 Cricket Tournament" width="200" height="200"/>
+                 <img src = "Images/LAOpenSqaud1.jpg" alt = "LA Open Team A" width="200" height="200"/>
+                 <img src = "Images/LAOpenSqaud2.jpg" alt = "LA Open Team 2" width="200" height="200"/>
+                 <img src = "Images/OhioSquad.jpg" alt = "C.S. Bhullar & ManinderKaur Bhullar Memorial Cricket Tournament" width="200" height="200"/>
+                 <img src = "Images/FloridaBeamersSquad.jpg" alt = "Florida Beamers" width="200" height="200"/>
+                 <img src = "Images/NJSquad.jpg" alt = "Edison Cup" width="200" height="200"/>
            </div>
            <br>
            
-           <div style="text-align:center">
-             <span class = "dot" onclick = "currentSlide(1)"></span>
-             <span class = "dot" onclick = "currentSlide(2)"></span>
-             <span class = "dot" onclick = "currentSlide(3)"></span>
-             <span class = "dot" onclick = "currentSlide(4)"></span>
-             <span class = "dot" onclick = "currentSlide(5)"></span>
-             <span class = "dot" onclick = "currentSlide(6)"></span>
-             <span class = "dot" onclick = "currentSlide(7)"></span>
-             <span class = "dot" onclick = "currentSlide(8)"></span>
-             <span class = "dot" onclick = "currentSlide(9)"></span>
-             <span class = "dot" onclick = "currentSlide(10)"></span>
-           </div>
+      
 
 
 <footer>
