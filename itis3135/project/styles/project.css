@@ -355,7 +355,7 @@ button {
   }
 
   .accordion{
-    width:70%;
+    width:50%;
     margin:0 auto;
 }
 
@@ -385,9 +385,8 @@ button {
     border-radius:3px;
 }
 
-@media screen and (max-width:480px){
-    .accordion{
-        width:100%;
-        margin:0;
-    }
+@media only screen and (max-width: 800px){
+  .accordion{
+    width:95%;
+}
 }
