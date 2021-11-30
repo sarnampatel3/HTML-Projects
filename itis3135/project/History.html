@@ -3,7 +3,8 @@ Name: Sarnam Patel
 Course: ITIS-3135-051
 Sarnam Patel >> ITIS 3135
 
-
+jQuery Plugin used: bxSlider
+jQuery UI Widget used: Accordion
 -->
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
@@ -15,11 +16,11 @@ Sarnam Patel >> ITIS 3135
     
     <h1> Sarnam Patel ITIS-3135</h1>
     <link href="styles/project.css" rel="stylesheet" type="text/css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
     <script src="scripts/jquery-3.6.0.js"></script>
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-    <script src = "scripts/players.js"> </script>
+    <script src = "scripts/accordion.js"> </script>
+    <script src = "scripts/slider.js"></script>
 
-  
         <hr>
         <img src = "Images/rdulogo.jpg" alt = "logo" class = "rdu">
         <img src = "Images/logo.jpg" alt = "logo" class = "samp">
@@ -43,25 +44,29 @@ Sarnam Patel >> ITIS 3135
         League Team, Florida Beamers. The goal of the franchise is to provide opportunities to youngsters to showcase their talent. <br>
         The main owners of the franchise are: Ritesh Patel, Kalpesh Patel and Sevanti Jain<br>
     </p>
+    <!--Accordion:  https://malsup.com/jquery/cycle/-->
 <p>Click on the tabs below to know more about the owners</p>
     <!-- accordion (start) -->
 <div class="accordion">
     <!-- accordion section 1 -->
-    <h1 id="accordionhead_1">Heading1</h1>
+    <h1 id="accordionhead_1">Ritesh Patel</h1>
     <div id="accordioncontent_1" class="accordion-content">
-        Content 1
+        Ritesh Patel is the main owner of the Samp Army Cricket Franchise. He plays cricket and wants <br>
+        to give opportunities to the young and talented kids. He is a left arm off spinner. 
     </div>
 
     <!-- accordion section 2 -->
-    <h1 id="accordionhead_2">Heading2</h1>
+    <h1 id="accordionhead_2">Kalpesh Patel</h1>
     <div id="accordioncontent_2" class="accordion-content">
-        Content 2
+        Kalpesh Patel plays cricket and supports the team in every tournament with his management skills. <br>
+        He loves cricket and wants to promote cricket in the US.
     </div>
 
     <!-- accordion section 3 -->
-    <h1 id="accordionhead_3">Heading3</h1>
+    <h1 id="accordionhead_3">Sevanti Jain</h1>
     <div id="accordioncontent_3" class="accordion-content">
-        Content 3
+        Sevanti Jain is a person who loves sports. He is a big fan of Cricket even though he do not play. <br>
+        He supports the team and gives confidence to every player throughout the tournament.
     </div>
 
 </div>
@@ -69,26 +74,68 @@ Sarnam Patel >> ITIS 3135
 
 <br>
 <br>
+        <!-- bxSlider -->
        <h3>Some Professional cricketers that played for Samp Army:</h3>
-        <script src = "scripts/players.js"></script>
 
+        <!--To put images in center: https://www.w3schools.com/howto/howto_css_image_center.asp-->
+       <div class = "container">
+        <div class = "row">
 
+            <div class = "column">
+                <img src = "images/coreyanderson.jpg" alt = "Corey Anderson" title = "Corey Anderson" height = 100 width = 150>
+              </div>
+              <p class= "cricketersIntro">Corey Anderson: Former New Zealand National Cricket Team Player
+
+          <div class = "column">
+             <img src = "images/alikhan.jpg" alt = "Ali Khan" title = "Ali Khan" height = 100 width = 150>
+            </div>
+            <p class= "cricketersIntro">Ali Khan: Current USA  National Cricket Team Player
+
+            <div class = "column">
+            <img src = "images/ashleynurse.jpg" alt = "Ashley Nurse" title = "Ashley Nurse" height = 100 width = 150>
+          </div>
+          <p class= "cricketersIntro">Ashley Nurse: Plays for West Indies International Cricket Team</p>
+
+          <div class = "column">
+            <img src = "images/hemraj.jpg" alt = "Chandrapaul Hemraj" title = "Chandrapaul Hemraj" height = 100 width = 150>
+          </div>
+          <p class= "cricketersIntro">Chandrapaul Hemraj: Played for West Indies International Cricket Team </p>
+
+          <div class = "column">
+             <img src = "images/mo.jpg" alt = "Monank Patel" title = "Monank Patel" height = 100 width = 150>
+            </div>
+            <p class= "cricketersIntro">Monank Patel: Current USA National T20 Cricket Team Captian</p>
+
+            <div class = "column">
+            <img src = "images/justin.jpg" alt = "Justin Dill" title = "Justin Dill" height = 100 width = 150>
+          </div>
+          <p class= "cricketersIntro">Justin Dill: Former South Africa National Team Player</p>
+
+          <div class = "column">
+            <img src = "images/saurabh.jpg" alt = "Saurabh Netravalkar" title = "Saurabh Netravalkar" height = 100 width = 150>
+          </div>
+          <p class= "cricketersIntro">Saurabh Netravalkar: Current USA National ODI Team Captian</p>
+
+          <div class = "column">
+             <img src = "images/shehan.jpg" alt = "Shehan Jayasurya" title = "Shehan Jayasurya" height = 100 width = 150>
+          </div>
+          <p class= "cricketersIntro">Shehan Jayasurya: Former Sri Lanka National Team Player</p>
+
+            <div class = "column">
+            <img src = "images/ray.jpg" alt = "Raymon Reifer" title = "Raymon Reifer" height = 100 width = 150>
+          </div>
+          <p class= "cricketersIntro">Raymon Reifer: Plays for West Indies National Team</p>
+
+          <div class = "column">
+            <img src = "images/rayad.jpg" alt = "Rayad Emrit" title = "Rayad Emrit" height = 100 width = 150>
+          </div>
+          <p class= "cricketersIntro">Rayad Emrit: Former West Indies National Team Player</p>
+        </div>
+      </div>
+     
+        <p class = "slideshow"> <img src = "images/coreyanderson.jpg" alt = "Corey Anderson" height = 300 width = 400 class = "active"></p>  
         
-        <div class = "slider">
 
-                <img src = "Images/coreyanderson.jpg" alt = "Corey Anderson" height="200" width="200">
-                <img src = "Images/hemraj.jpg" alt = "Chanderpaul Hemraj" height="200" width="200">
-                <img src = "Images/ashleynurse.jpg" alt = "Ashley Nurse" height="200" width="200">
-                <img src="Images/alikhan.jpg" alt = "Ali Khan" height="200" width="200">
-                <img src = "Images/rustytheron.jpg" alt = "Rusty Theron" height="200" width="200">
-                <img src = "Images/shehan.jpg" alt = "Shehan Jayasuriya" height="200" width="200">
-                <img src = "Images/saurabh.jpg" alt = "Saurabh Netravalkar" height="200" width="200">
-                <img src = "Images/rayad.jpg" alt = "Rayad Emrit" height="200" width="200">
-                <img src="Images/ray.jpg" alt = "Raymon Reifer" height="200" width="200">
-                <img src = "Images/mo.jpg" alt = "Monank Patel" height="200" width="200">
-                <img src = "Images/justin.jpg" alt = "Justin Dill" height="200" width="200">
-          
-</div>
 <br>
 <br>
 <br>

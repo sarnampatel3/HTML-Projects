@@ -354,7 +354,7 @@ button {
       align-items: center;
   }
 
-  .accordion{
+.accordion{
     width:50%;
     margin:0 auto;
 }
@@ -368,7 +368,7 @@ button {
     margin-top:0px;
     background-color:gainsboro;
     padding-top:7px;padding-bottom:7px;
-    border:1px solid darkgrey;
+    border:1px solid black;
     border-radius:3px;
 }
 .accordion h1:hover{
@@ -381,7 +381,8 @@ button {
     padding:10px;
     height:200px;
     line-height:20px;
-    border:1px solid gray;
+    border:1px solid black;
+    background-color: whitesmoke;
     border-radius:3px;
 }
 
@@ -389,4 +390,21 @@ button {
   .accordion{
     width:95%;
 }
+}
+
+/* Slider*/
+.bx img {
+    max-width: 800px; 
+}
+
+.cricketersIntro{
+    text-align: center;
+    float: center;
+}
+
+.column{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: fit-content;
 }
