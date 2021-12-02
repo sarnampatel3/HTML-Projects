@@ -349,9 +349,11 @@ button {
 
 .calender{
       width: 800px;
+      height: 600px;
       margin-left: auto;
       margin-right: auto;
       align-items: center;
+      border: 0;
   }
 
 .accordion{
@@ -399,7 +401,6 @@ button {
 
 .cricketersIntro{
     text-align: center;
-    float: center;
 }
 
 .column{
@@ -408,3 +409,4 @@ button {
     margin-right: auto;
     width: fit-content;
 }
+
