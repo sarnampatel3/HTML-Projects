@@ -349,11 +349,11 @@ button {
 
 .calender{
       width: 800px;
-      height: 600px;
       margin-left: auto;
       margin-right: auto;
       align-items: center;
       border: 0;
+      height: 600px;
   }
 
 .accordion{
