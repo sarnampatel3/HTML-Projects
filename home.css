@@ -8,7 +8,7 @@ a:hover,
 a:link,
 a:active,
 a:visited {
-    color: red;
+    color: blue;
 
 }
 
@@ -91,7 +91,9 @@ button {
 .calculator-grid>button {
     cursor: pointer;
     font-size: 2rem;
-    border: 10px, solid whitesmoke;
+    border: 10px;
+    border: solid;
+    border: whitesmoke;
     outline: none;
     border-color: darkgray;
 }
@@ -131,8 +133,8 @@ button {
 }
 
 #sarnam{
-    width: 450;
-    height: 300;
+    width: 450px;
+    height: 300px;
     display: block;
     margin-left: auto;
     margin-right: auto;
