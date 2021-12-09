@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<management>
+	<teammember>
+		<name>Corey Anderson</name>
+		<title>Former New Zealand Professional Cricketer</title>
+		<bio>Corey Anderson is a former New Zealand cricketer who played as an all-rounder for New Zealand in International Cricket. He as well as Lahore Qalanders in the PSL, Royal Challengers Bangalore in the IPL and Northern Districts in New Zealand first class cricket.</bio>
+	</teammember>
+	<teammember>
+		<name>Ali Khan</name>
+		<title>American Professional Cricketer</title>
+		<bio>Ali Khan is an American Cricketer and has played in many other leagues world wide. He played for Trinbago Knight Riders in Carribean Premier League (CPL), Delhi Bulls in Abu Dabhi T10 League, Kolkata Knight Riders in Indian Premier League (IPL)</bio>
+	</teammember>
+	<teammember>
+		<name>Ashley Nurse</name>
+		<title>West Indies Professional Cricketer</title>
+		<bio>Ashley Nurse is a West Indian Cricketer who plays first class, List A and T20 cricket for Barbados. He is a right arm off spinner and right-hand middle order batsman</bio>
+	</teammember>
+	<teammember>
+		<name>Chandrapaul Hemraj</name>
+		<title>Guyanese Cricketer</title>
+		<bio>Chandrapaul Hemraj is a Guyanese Cricketer who plays first class and List A for Guyana. He plays for Guyanese Amazon Warriors in Caribbean Premier League (CPL) and Delhi Bulls in Abu Dhabi T10 League</bio>
+	</teammember>
+	<teammember>
+		<name>Monank Patel</name>
+		<title>USA T20 Team Captain</title>
+		<bio>Monank Patel is an American Cricketer and the Captain of the USA National Cricket Team. In August 2018, he was names in the USA’s squad for the 2018-19 ICC World T20 Americas Qualifier Tournament in Morrisville, North Carolina</bio>
+	</teammember>
+    <teammember>
+		<name>Justin Dill</name>
+		<title>Former South African Professional Cricketer</title>
+		<bio>Justin Dill was part of South Africa’s squad for the 2014 ICC Under-19 Cricket World Cup. He was the leading wicket-taker for Western Province in the 201819 CSA 3-Day Provincial Cup, with 34 dismissal sin ten matches</bio>
+	</teammember>
+	<teammember>
+		<name>Saurabh Netravalkar</name>
+		<title>USA ODI Team Captain</title>
+		<bio>Saurabh Netravalkar is an Indian-born American Cricketer who is the current captain of the USA Cricket Team. He is a left-arm medium-fast bowler who has represented India under-19 team. He made his first-class debut for Mumbai in the 2013-14 Raji Trophy on December 22, 2013.</bio>
+	</teammember>
+	<teammember>
+		<name>Shehan Jayasuriya</name>
+		<title>Former Sri Lankan Professional Cricketer</title>
+		<bio>Shehan Jayasuriya played for Chilaw Marians in Sri Lankan Domestic Cricket. He is a quick-scoring left-handed batsman and a right-arm off-break bowler.</bio>
+	</teammember>
+	<teammember>
+		<name>Raymon Reifer</name>
+		<title>West Indies Professional Cricketer</title>
+		<bio>Raymon Reifer is a Barbadian Cricketer. He is a left-handed batsman who bowls left-arm medium-fast. He was born in Saint Lucy, Barbados. He made his international debut for the West Indies Cricket Team in December 2017</bio>
+	</teammember>
+	<teammember>
+		<name>Rayad Emrit</name>
+		<title>West Indies Professional Cricketer</title>
+		<bio>Rayad Emrit is a West Indies cricketer who has represented the West Indies Senior team, making his first ODI appearance just a year after his regional debut in 2007</bio>
+	</teammember>
+</management>
