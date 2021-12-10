@@ -1,36 +1,31 @@
 $(document).ready(function() {
-    $.ajax({
-        type: "get",
-        url: "players.json", //changed to json from xml
-        beforeSend: function() {
-            $("#players").html("Loading...");
-        },
-        timeout: 10000,
-        error: function(xhr, status, error) {
-            alert("Error: " + xhr.status + " - " + error);
-        },
-        dataType: "json", //changed to json from xml
-        success: function(data) {
-            $("#players").html("");
-            /*
-            $(data).find("management").children().each(function() {
-                var xmlDoc = $(this);
-                $("#team").append
-                ("<h3>" + xmlDoc.find("name").text() + "</h3>" +
-                          xmlDoc.find("title").text() + "<br>" +
-                          xmlDoc.find("bio").text() + "<br>");
-            });
-            */
-            $.each(data, function(){
-                $.each(this, function(key, value){
-                    $('#players').append(
-                        "<h3>" + value.name + "</h3>" +
-                        value.title + "<br>" +
-                        value.bio + "<br>" + 
-                        "<br>"
-                    );
-                });
-            });
-        }
+
+    $("li a").each(function(){
+
+        $(this).click(function(){
+
+            $.ajax({
+                type: "get",
+                url: "json_files/" + this.title + ".json", 
+                error: function(xhr, status, error) {
+                alert("Error: " + xhr.status + " - " + error);
+                },
+
+                dataType: "json",
+
+                success: function(data) {
+                    $("main").empty();
+
+                    $.each(data, function(){
+
+                        $.each(this, function(key, value){
+                            $("main").append(
+                                $("<h1>" + value.name + "</h1>" + "<h2>" + value.title + "</h2>" + "<h3>" + value.bio + "</h3>")
+                            );
+                        })
+                    });
+                }
+            })
+        });
     });
-});
+}); 
